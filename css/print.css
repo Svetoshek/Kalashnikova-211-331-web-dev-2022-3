@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+}
+
+.head,
+.logo,
+.price,
+.sale h1,
+.block-x,
+.header h1,
+.content p,
+.content h1,
+.header_2 h1,
+.main-menu ul,
+.header_2 .head {
+    position: absolute;
+}
+
+.text,
+.sale,
+.header,
+.sale p,
+.text_2,
+.sale ul,
+.block-2,
+.content,
+.header_2,
+.block_2 img {
+    position: relative;
+}
+
+.sale,
+.header,
+.header_2 {
+    height: 1000px;
+}
+
+.sale h1,
+.content p,
+.content h1 {
+    width: 900px;
+    left: 24%;
+}
+
+.head,
+.text,
+.block-x {
+    width: 800px;
+    text-align: center;
+}
+
+.sale p,
+.sale ul,
+.sale h1,
+.content p,
+.content h1,
+.text_2 h1 {
+    text-align: center;
+}
+
+.block_1,
+.block_2,
+.content,
+.block_2 img {
+    height: 500px;
+}
