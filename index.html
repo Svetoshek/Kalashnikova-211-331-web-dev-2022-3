@@ -2,74 +2,281 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Интернет-магазин</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
 </head>
 
 <body>
-	<header class="header">
-		<img class="head_img" src="img/kitchen.jpg" alt="background">
-		<nav class="main-menu">
-			<div class="block-logo">
-				<img src="img/bread.png" alt="logo" class="logo">
-				<h1>Bread</h1>
-			</div>
-			<ul>
-				<li><a href="menu.html">Our breads</a></li>
-				<li><a href="">Our</a></li>
-				<li><a href="">Menu</a></li>
-				<li><a href="">Catering</a></li>
-				<li><a href="">Recipes</a></li>
-				<li><a href="">Contact US</a></li>
-			</ul>
-		</nav>
-		<div class="head">
-			<p>We Are an Artisan Bakery</p>
-			<p class="block-x">We are based in Bermondsey and supply independent cafes and restaurants across London.
-			</p>
-		</div>
-	</header>
-	<div class=content>
-		<h1>Handcrafted</h1>
-		<p>WarmBread is the finest bakery in London known for its natural handcrafted breads. We adhere to the highest
-			quality standards while creating our food products so that each one brings delight to both your eye and
-			tongue. Our menu regularly changes featuring seasonal meals carefully cooked by our exceptionally creative
-			chefs.</p>
-	</div>
-	<div class="sale">
-		<h1>Our Menu</h1>
-		<p>Take a look at our menu and choose your meal or order it right from our bakery</p>
-		<ul>
-			<li>
-				<div class="active">Breads</div>
-			</li>
-			<li>Breakfast</li>
-			<li>Lunch & Dinner</li>
-		</ul>
-		<div class="price">
-			<div class="block-1">
-				<h2>Carrot Rye<span>$4.80</span></h2>
-				<p>Seeded rye bread covered with seeds, made with a grated carrot which keeps the bread deliciously
-					moist.</p>
-			</div>
-			<div class=block-1>
-				<h2>Chia Rye<span>$4.80</span></h2>
-				<p>Light rye bread covered with chia seeds and sunflower seeds.</p>
-			</div>
-			<div class="block-2">
-				<h2>Cinnamon Swirl<span>$3</span></h2>
-				<p>Danish pastry swirl with cinnamon, marzipan, and vanilla custard.</p>
-			</div>
-			<div class=block-2>
-				<h2>Seasonal Fruit<span>$3</span></h2>
-				<p>Protein-rich and fat-free Skyr yogurt, berry compote,house granola and a little of honey.</p>
-			</div>
-		</div>
-	</div>
+    <header class="header">
+        <div class="container clearfix">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="">Главная</a></li>
+                    <li><a href="">Бестиарий</a></li>
+                    <li><a href="">Алхимия</a></li>
+                    <li><a href="">Чертежи</a></li>
+                    <li><button class="button"><a href="form.html">Войти</a></button></li>
+                </ul>
+            </nav>
+        </div>
 
+    </header>
 
+    <main class="container">
+        <aside class="sidebar">
+            <form>
+                <fieldset>
+                    <legend>Класс монстра</legend>
+
+                    <div>
+                        <input type="radio" name="group" id="group1" value="group1">
+                        <label for="group1">Трупоеды</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" id="group2" value="group2">
+                        <label for="group2">Вампиры</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" id="group3" value="group3">
+                        <label for="group3">Дракониды</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" id="group4" value="group4">
+                        <label for="group4">Реликты</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" id="group5" value="group4">
+                        <label for="group4">Огр</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" id="group6" value="group5">
+                        <label for="group5">Духи и призраки</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Группы</legend>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer1" name="manufacturer" id="manufacturer1">
+                        <label for="manufacturer1">Сильные</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer2" name="manufacturer" id="manufacturer2">
+                        <label for="manufacturer2">Легкие</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer3" name="manufacturer" id="manufacturer3">
+                        <label for="manufacturer3">способности</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer4" name="manufacturer" id="manufacturer4">
+                        <label for="manufacturer4">Дальность</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer5" name="manufacturer" id="manufacturer5">
+                        <label for="manufacturer5">Размер</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Группы</legend>
+
+                    <div>
+                        <input type="radio" value="group1" name="group" id="grop1">
+                        <label for="group1">Мифические</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" value="group2" name="group" id="grop2">
+                        <label for="group2">Ледяные</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" value="group3" name="group" id="grop3">
+                        <label for="group3">Огненные</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" value="group4" name="group" id="grop4">
+                        <label for="group4">Магические</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" value="group5" name="group" id="grou5">
+                        <label for="group5">Болотные</label>
+                    </div>
+
+                    <button class="" type="submit">Применить</button>
+                </fieldset>
+            </form>
+        </aside>
+        <section class="column main-column">
+            <div class="columns">
+                <div class="column nested-column">
+                    <a class="article">
+                        <figure class="article-image">
+                            <img src="images/naker.png" alt="naker">
+                        </figure>
+                        <div class="article-body">
+                            <h2 class="article-title">Накер</h2>
+                            <p class="article-content">
+                                Будьте внимательны, милсдари, под мостом
+                                завелись накеры. Если поедете группой, не задерживаясь, то бояться нечего. Но ежели у
+                                вас там ось в телеге полетит, ежели вы там застрянете… Закройте глаза и молитесь
+                                Мелитэле.<br><br>
+                                <b>— Курт Хаммербах, городской стражник из Венгерберга.</b>
+                                <br><br>
+                                Один накер не опасен. Пять могут вызвать кое-какие неприятности. Десять способны убить
+                                даже опытного воина. Особенно опасны большие и сильные особи, а также более редкая
+                                разновидность накеров, называемая стукачами.<br><br>
+                                Накеры и стукачи живут в тёмных лесах, в низинах, во влажных и тенистых долинах
+                                колониями от дюжины до нескольких десятков особей. Гнёзда они устраивают в глубоких
+                                ямах, соединённых узкими туннелями. С помощью этих переходов они молниеносно могут
+                                перемещаться в пределах колонии и её ближайших окрестностей.<br><br>
+                                Накеры всегда нападают всей стаей из засады. Они стараются как можно быстрее окружить
+                                жертву и отрезать ей путь к отступлению. К счастью, их атаки обычно плохо организованы,
+                                поскольку накеры не славятся отвагой, так что некоторые особи подолгу колеблются и лишь
+                                затем, преодолев страх, бросаются на врага. Сражаясь с накерами, важно использовать этот
+                                момент нерешительности: сперва убив более наглых, а затем и тех, что держались позади.
+                            </p>
+                            <footer class="article-info">
+                                <span>Класс: Огр</span>
+                            </footer>
+                        </div>
+                    </a>
+                    <a class="article">
+                        <figure class="article-image">
+                            <img src="images/bes.png" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2 class="article-title">Бес</h2>
+                            <p class="article-content">Является родственным с суккубами,
+                                сильванами и чертями видом и очень похож на последних: огромное существо,
+                                передвигающееся на четырёх конечностях, имеет огромные рога, третий глаз во лбу.
+                                Передние лапы беса четырёхпалые и заканчиваются короткими когтями, а один из пальцев
+                                является прибылым, задние же конечности оканчиваются копытами. Также имеет хвост с
+                                кисточкой.
+                                Голова вытянутая, широкая пасть, полная острых зубов с длинными выдающимися клыками на
+                                обеих
+                                челюстях. Покрытая пигментными пятнами кожа и недлинная шерсть, растущая вокруг головы,
+                                на локтях, в паху и на задних лапах, могут носить очень разный окрас: от светлого и
+                                белого
+                                до красного, болотного и чёрного. Брюхо беса обычно имеет другой окрас в сравнении с
+                                остальным
+                                телом. Также ввиду различия в цвете разные участки шкуры могут образовывать «тигриные»
+                                полосы.
+
+                                Бесы гораздо крупнее чертей, а также отличаются от них формой рогов —
+                                обычно они ветвистые, оленьи, но иногда встречаются и развесистые лосиные
+                                «лопаты». Эти существа обладают дьявольской физической силой, отличными
+                                способностями к регенерации, а также могут гипнотизировать противников с
+                                помощью третьего глаза. Эти существа предпочитают обитать в лесных чащобах,
+                                непролазных болотах или неглубоких пещерах, яростно охраняют свою территорию
+                                и свирепо расправляются с любым конкурентом. Бесы всеядны и не брезгуют ни мясом,
+                                ни растительной пищей.</p>
+                            <footer class="article-info">
+                                <span>Класс: Реликт</span>
+                            </footer>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a class="article">
+                        <figure class="article-image">
+                            <img src="images/vamp.jpg" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2 class="article-title">Высший вампир</h2>
+                            <p class="article-content">Раса высших вампиров попала в Мир Континента в ходе
+                                Сопряжения Сфер, придя из своего собственного мира. После перемещения в пещеру
+                                Хен Гайдт в Туссенте вампиры надолго поселились здесь, однако, в отличие от людей,
+                                тысячи которых прибыли в мир, вампиров была лишь горстка — около 1200. Прибывшие
+                                разделились на две группы: на тех, кто отгородился от мира (подобно Скрытому из
+                                Туссента),
+                                и на тех, кто стал искать способы сосуществования с Aen Seidhe, а через много-много лет
+                                –
+                                и с первыми людьми, очень хрупкими по сравнению с вампирами видами. Судя по всему,
+                                все остальные вампиры низших
+                                и переходных стадий также переместились на Континент из мира высших вампиров.</p>
+                            <footer class="article-info">
+                                <span>Класс: вампир</span>
+                            </footer>
+                        </div>
+                    </a>
+                    <a class="article">
+                        <figure class="article-image">
+                            <img src="images/viverna.png" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2 class="article-title">Виверна</h2>
+                            <p class="article-content">Являются частью естественной экосистемы мира.
+                                Легко поддаются приручению у друидов. Территориальные животные. Они живут
+                                и охотятся в одиночку, хотя бывают периоды, когда они спариваются. Нападают
+                                на любого нарушителя их территорий, кроме тех, кто гораздо тяжелее их самих,
+                                те же драконы, например. Они питаются в основном мясом животных,
+                                которых легко хватать с воздуха, — вот почему они так любят питаться овцами.</p>
+                            <footer class="article-info">
+                                <span>Класс: Драконид</span>
+                            </footer>
+                        </div>
+                    </a>
+                    <a class="article">
+                        <figure class="article-image">
+                            <img src="images/les.png" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2 class="article-title">Дух леса</h2>
+                            <p class="article-content">Обычно встречается там, где много зелени: в девственных лесах,
+                                рощах и на полянах.
+                                Предпочитает держаться подальше от людских поселений. Проявляет наибольшую активность во
+                                время дождя.</p>
+                            <footer class="article-info">
+                                <span>Класс: дух</span>
+                            </footer>
+                        </div>
+                    </a>
+                    <a class="article">
+                        <figure class="article-image">
+                            <img src="images/velikan.png" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2 class="article-title">Великан</h2>
+                            <p class="article-content">Трудно представить точный облик ледяного гиганта,
+                                ибо ни один ведьмак ранее никогда не сталкивался с ним. Про великанов известно
+                                лишь из сказок и преданий, являющихся совокупностью правды и вымысла. Жители Скеллиге
+                                утверждают,
+                                что кожа великанов синего цвета, поскольку они были рождены от снега и льда,
+                                что, однако, представляется маловероятным.</p>
+                            <footer class="article-info">
+                                <span>Класс: огр </span>
+                            </footer>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            &copy; 2022 Помощь Ведьмакам
+        </div>
+    </footer>
 </body>
 
 </html>
